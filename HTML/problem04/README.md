@@ -18,7 +18,12 @@ Your file should have this structure:
 <!DOCTYPE html>
 <html>
    <body>
-      ...
+      <h1>Things I Like<h1>
+      <ul>
+         <li>JavaScript</li>
+         <li>Brownies</li>
+         <li>Dad Jokes</li>
+      </ul>
    </body>
 </html>
 ```
