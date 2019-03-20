@@ -2,6 +2,36 @@
 <html>
   <body>
     <h1>Registration form</h1>
-    <!-- Add form here -->
+    <form>
+      <label>Username</label>
+      <input type="text" required/>
+      <label>Password</label>
+      <input type="password" required/>
+      <div>
+      <label>Email</label>
+      <input type="email" required/>
+      </div>
+      <div>
+      <label>Which taxi do you require?</label></br>
+      <input type="radio" name="taxi" required/> Car </br>
+      <input type="radio" name ="taxi" required/> Van </br>
+      <input type="radio" name ="taxi" required/> Tuk tuk </br>
+      </div>
+      <div>
+      <label>Extras</label></br>
+      <input type="checkbox" required/> Car </br>
+      <input type="checkbox" required/> Van </br>
+      <input type="checkbox" required/> Tuk tuk </br>
+      </div>
+      <div>
+      <label>Pickup</label>
+      <select>
+        <option selected="selected">Select One</option>
+        <option>Option 1</option>
+    </select>
+    </div>
+    <label>Special</label>
+    <input type="text" required/>
+    </form>
   </body>
 </html>
