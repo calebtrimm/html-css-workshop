@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    height: 100vh;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top {
+    height: 50px;
+    background-color: #3a3633;
+    color: rgb(223, 207, 207);
+}
+
+.main {
+    height: calc(100vh - 100px);
+}
+
+.bot {
+    height: 50px;
+    background-color: #3a3633;
+    color: white;
+}

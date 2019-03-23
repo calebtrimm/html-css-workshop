@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a3633;
+
+
+}
+
+.inline > a {
+    text-decoration: none;
+    color: white;
+}
+
+.inline {
+    padding: 20px;
+    font-family: Poppins, sans-serif;
+}
+
+.icon img {
+    display: block;
+    padding: 10px;
+}
+
+a:hover {
+    color: grey;
+    transition: ease-in-out 0.2s;
+}

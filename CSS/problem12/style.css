@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+}
+
+
+.bar {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 50px;
+    background-color: #3a3633;
+    color: #FFF;
+}
+
+.main {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
