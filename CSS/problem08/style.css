@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+}
+    
+.container {
+    margin: 100px;
+}
+
+.name {
+    font-weight: bold;
+}
+.group {
+    display:flex;
+    margin: 40px;
+}
+
+.col {
+    text-align: center;
+    border-style: dashed;
+    padding: 20px;
+    margin: 10px;
+}
+
+img {
+    height: 200px;
+}

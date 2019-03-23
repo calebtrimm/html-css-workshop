@@ -1,12 +1,15 @@
 .title {
-
+    font-size: 3rem;
+    text-align: center;
 }
 .subtitle {
-
+    font-size: 2rem;
+    text-align: center;
 }
 .content {
-
+    font-size: 1.5rem;
+    font: "comic-sans";
 }
 .emph {
-
+    font-style: italic;
 }
